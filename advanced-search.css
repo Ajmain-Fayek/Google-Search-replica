@@ -1,0 +1,35 @@
+body {
+    background-color: #202124;
+}
+
+#top-bar {
+    display: grid;
+    /* background-color: yellow; */
+    grid-template-columns: 80%  20%;
+} 
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+
+#index-a {
+    display: inline-block;
+    background-color: #3e4147;
+    border-radius: 2px;
+    border: 1px solid #3e4147;
+    padding: 5px;
+}
+
+#index-a:hover {
+    border: 1px solid #5f6368;
+}
+
+#title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+#index-link {
+    text-align: right;
+}
