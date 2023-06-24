@@ -7,10 +7,77 @@
     <link rel="stylesheet" href="advanced-search.css">
 </head>
 <body>
+<!-- Top part -->
+<div>
     <div id="top-bar">
         <article id="title"><a href="index.html">Google</a></article>
         <article id="index-link"><a id="index-a" href="index.html">Google Search</a></article>
     </div>
-    
+    <div>
+        <h2>Advanced Search</h2>
+    </div>
+</div>
+<hr>
+<!-- Form part -->
+<form action="https://www.google.com/search">
+    <div>
+        <div>
+            <div>
+                <span>Find the page with...</span>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="atw">all these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_q">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="tewop">this exact word or phrase:</label>
+            </div>
+            <div>
+                <input type="text" name="as_epq">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="aotw">any of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_oq">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="notw">none of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_eq">
+            </div>
+            <div>
+                <input type="hidden" name="as_nlo">
+                <input type="hidden" name="as_nhi">
+                <input type="hidden" name="lr">
+                <input type="hidden" name="cr">
+                <input type="hidden" name="as_qdr" value="all">
+                <input type="hidden" name="as_sitesearch">
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="safe" value="images">
+                <input type="hidden" name="as_filetype">
+                <input type="hidden" name="tbs">
+            </div>
+
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Advanced Search">
+            </div>
+        </div>
+    </div>
+</form>
+
 </body>
 </html>

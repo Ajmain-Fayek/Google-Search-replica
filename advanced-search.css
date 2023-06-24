@@ -1,7 +1,8 @@
 body {
-    background-color: #202124;
+    /* background-color: #202124; */
+    background-color: rgb(156, 156, 112);
 }
-
+/* Top part styling */
 #top-bar {
     display: grid;
     /* background-color: yellow; */
@@ -16,7 +17,7 @@ article a {
 #index-a {
     display: inline-block;
     background-color: #3e4147;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid #3e4147;
     padding: 5px;
 }
@@ -33,3 +34,6 @@ article a {
 #index-link {
     text-align: right;
 }
+
+/* Form part styling */
+

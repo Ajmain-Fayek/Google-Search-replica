@@ -61,6 +61,7 @@ strong {
     padding: 15px;
     border: 1px solid #3e4147;
     background-color: #3e4147;
+    box-shadow: 0 0 10px 0 #131314;
 }
 
 form {
