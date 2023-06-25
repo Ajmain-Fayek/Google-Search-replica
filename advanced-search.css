@@ -1,8 +1,12 @@
 body {
     /* background-color: #202124; */
     background-color: rgb(156, 156, 112);
+    font-family: arial,sans-serif;
 }
 /* Top part styling */
+#top-container {
+    padding: 10px;
+}
 #top-bar {
     display: grid;
     /* background-color: yellow; */
@@ -27,7 +31,7 @@ article a {
 }
 
 #title {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
 }
 
