@@ -18,7 +18,7 @@ div a {
 
 div p{
     text-align: center;
-    color: white;
+    color: #e8eaed;
     margin: 0;
 }
 #links {
@@ -40,7 +40,7 @@ div p{
     display: block;
     margin: 20px auto;
     background-color: #383b41;
-    color: rgb(224, 224, 224);
+    color: #e8eaed;
     font-size: 15px;
     border-radius: 5px;
     border: 1px solid #383b41;
@@ -52,7 +52,7 @@ div p{
 }
 #text {
     width: 50vw;
-    color: rgb(194, 194, 194);
+    color: #e8eaed;
     border-radius: 30px;
     font-size: 15px;
     padding: 15px;

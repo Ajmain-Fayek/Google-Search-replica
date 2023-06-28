@@ -8,7 +8,7 @@ div {
     text-align: right;
 }
 a {
-    color: rgb(224, 224, 224);
+    color: #e8eaed;
     background-color: #383b41;
     border: 1px solid #383b41;
     padding: 6px;
@@ -35,7 +35,7 @@ strong {
     margin: 20px auto;
     background-color: #383b41;
     border: 1px solid #383b41;
-    color: rgb(224, 224, 224);
+    color: #e8eaed;
     font-size: 15px;
     border-radius: 5px;
     padding: 10px;
@@ -48,7 +48,7 @@ strong {
 
 #text {
     width: 50vw;
-    color: rgb(194, 194, 194);
+    color: #e8eaed;
     border-radius: 30px;
     font-size: 15px;
     padding: 15px;
