@@ -19,32 +19,32 @@ a {
 
 p {
     padding: 10vh 0 0 0;
-    color: rgb(18, 155, 5);
-    font-size: 70px;
+    color: #e8eaed;
+    font-size: 5.5em;
     font-weight: 600;
     margin: 0;
     
 }
-strong {
+/* strong {
     font-size: 50px;
-}
+} */
 
 
 #submit {
-    display: block;
-    margin: 20px auto;
+    display: inline-block;
+    margin: 20px 10px;
     background-color: #383b41;
     border: 1px solid #383b41;
     color: #e8eaed;
     font-size: 15px;
     border-radius: 5px;
     padding: 10px;
-
 }
 
 #submit:hover, a:hover {
     border: 1px solid #5f6368;
 }
+
 
 #text {
     width: 50vw;
@@ -52,7 +52,7 @@ strong {
     border-radius: 30px;
     font-size: 15px;
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 23px;
     background-color: #202124;
     border: 1px solid #5f6368;
 }
@@ -68,7 +68,7 @@ form {
     text-align: center;
 }
 
-.blue {
+/* .blue {
     color: rgb(0, 0, 219);
 }
 
@@ -78,4 +78,4 @@ form {
 
 .yello {
     color: rgb(230, 230, 0);
-}
+} */
